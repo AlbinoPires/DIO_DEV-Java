@@ -29,6 +29,19 @@ public class TiposVariaveis {
         float pi = 3.14F;       //Tem que colocar F no final em todo tipo float
         double salario = 1450.33;
         System.out.println("Hello, World! Começamos!!!" + idade + " " + ano + " " + cep + " " + cpf + pi + " " + salario + " Teste Ok");
+        
+        // demonstrando constante 'final'
+        final double VALOR_DE_PI = 3.14; //agora se declarado sem 'final' o valor pode ser alterado!!!
+        System.out.println("Valor de PI " + VALOR_DE_PI);
+
+        String meuNome = "Pedro Alvares Cabral";
+        System.out.println(meuNome + " Verificado como declaramos a string recebendo texto...");
     }
 }
+
+/*
+ * Constantes - Valores que não podem ser alterados depois de ser definidos
+ * ela tem uma palavra reservada 'final' seguida do tipo
+ * Por convenção CONSTANTES são msempre escritas por CAIXA ALTA
+ */
 
