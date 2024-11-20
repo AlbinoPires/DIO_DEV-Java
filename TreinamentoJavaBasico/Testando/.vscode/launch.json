@@ -1,0 +1,33 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+      {
+        "type": "java",
+        "name": "Teste",
+        "request": "launch",
+        "mainClass": "Teste",
+        "projectName": "Testando_b355ff01"
+      },
+      {
+        "type": "java",
+        "name": "AboutMe2",
+        "request": "launch",
+        "mainClass": "AboutMe2",
+        "projectName": "Testando_b355ff01"
+      },
+      {
+        "type": "java",
+        "request": "launch",
+        "name": "Executar AboutMe",
+        "mainClass": "AboutMe",
+        "vmArgs": "--enable-preview",
+        "args": [
+          "Albino",
+          "Pires",
+          "41",
+          "1.80",
+          "DevJAVAJr"
+        ]
+      }
+    ]
+}
