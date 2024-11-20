@@ -4,7 +4,7 @@
 * <p>
 * <b>Note:</b> Lista inicia uma série de estudos para 
 * entender como a linguagem se comporta em dados partindo
-* de lista até entender o comportamento com chave e valor!
+* de lista até entender o comportamento com chave e valor, importante!!!
 * 
 * @author  Albino Pires
 * @version  1.0

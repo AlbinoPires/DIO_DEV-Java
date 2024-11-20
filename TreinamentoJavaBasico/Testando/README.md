@@ -62,7 +62,7 @@ Este repositório contém os exemplos e exercícios desenvolvidos durante a prá
 /src
 ├── AboutMe.java          # Classe que demonstra uso de argumentos em args[]
 ├── AboutMe2.java         # Classe interativa utilizando Scanner
-├── PontoEletronico.java  # Exemplo de classe com boas práticas de nomeação
+├── TestandoLista.java    # Exemplo de classe para entendimento de comportamento de Java em listas
 ```
 
 ---
@@ -96,5 +96,3 @@ Este repositório contém os exemplos e exercícios desenvolvidos durante a prá
 **Data:** 20/11/2024  
 **Versão:** 1.0
 ```
-
-Você pode ajustar conforme achar necessário, incluindo mais informações sobre o contexto dos exemplos ou expandindo a seção de links.
