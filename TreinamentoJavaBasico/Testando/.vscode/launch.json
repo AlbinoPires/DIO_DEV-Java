@@ -3,6 +3,13 @@
     "configurations": [
       {
         "type": "java",
+        "name": "TestandoScannerEmFamilia2024",
+        "request": "launch",
+        "mainClass": "TestandoScannerEmFamilia2024",
+        "projectName": "Testando_b355ff01"
+      },
+      {
+        "type": "java",
         "name": "Teste",
         "request": "launch",
         "mainClass": "Teste",

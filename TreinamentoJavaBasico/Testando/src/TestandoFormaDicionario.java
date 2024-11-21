@@ -21,8 +21,6 @@ class Aluno{
         this.nome = nome;
         this.notaTrimestre = notaTrimestre;
     }
-
-
 @Override
 public String toString(){
     return nome + "- Nota: " + notaTrimestre;

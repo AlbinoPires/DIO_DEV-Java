@@ -16,7 +16,7 @@ import java.util.Scanner;
  * @since 20/11/2024
  */
 
-public class AboutMe2 {
+public class TreinandoScanner {
     public static void main(String[] args) {
 
         // Configurando o Scanner para usar o formato numérico dos EUA
