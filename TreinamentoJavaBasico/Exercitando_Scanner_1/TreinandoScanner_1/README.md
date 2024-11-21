@@ -77,26 +77,27 @@ public class TestandoScannerEmFamilia2024 {
                 System.out.println(familiares.get(0));
                 break;
 
-            case "Michele":
+            case "Megera":
                 System.out.println(familiares.get(1));
                 break;
 
-            case "Mariana":
+            case "Filha":
                 System.out.println(familiares.get(2));
                 break;
 
-            case "Albino Jr":
+            case "Filho Jr":
                 System.out.println(familiares.get(3));
                 break;
 
-            case "Gabriela":
+            case "Caçula":
                 System.out.println(familiares.get(4));
                 break;
 
             default:
-                System.out.println("Familiar não encontrado.");
+                System.out.println("Esse não é da familia!!! Digite outro nome.");
                 break;
         }
+
 
         // Mensagem bônus
         System.out.println(MensagemBonus.getMensagem(nomeDigitado));
@@ -116,25 +117,27 @@ public class TestandoScannerEmFamilia2024 {
 ## **Classe Auxiliar - `MensagemBonus.java`**
 
 ```java
+// Pacote ou classe externa
 public class MensagemBonus {
 
     public static String getMensagem(String nome) {
         switch (nome) {
             case "Albino":
                 return "Parabéns, Albino! Sua ideia funcionou, o pacote integrou ao código atual!";
-            case "Michele":
-                return "Michele, parabéns! Você está brilhando como sempre.";
-            case "Mariana":
-                return "Mariana, continue brilhando nas salas de aula!";
-            case "Albino Jr":
-                return "Albino Jr, decola alto no Vava e CN!";
-            case "Gabriela":
-                return "Gabriela, nunca perca a magia da brincadeira!";
+            case "Megera":
+                return "Megera, parabéns! Você está brilhando como sempre.";
+            case "Filha":
+                return "Filha, continue brilhando nas salas de aula, seu retorno é sua independência financeira!";
+            case "Filho Jr":
+                return "Filho Jr, foque na sua missão, disciplina nos estudos e passe para CN, ganhará um PC ZeroBala!";
+            case "Caçula":
+                return "Caçulinha, nunca perca a magia da brincadeira sua familia te ama, BEBE DO PAPAI!";
             default:
                 return "Nome não reconhecido, mas o esforço valeu a pena!";
         }
     }
 }
+
 ```
 
 ---

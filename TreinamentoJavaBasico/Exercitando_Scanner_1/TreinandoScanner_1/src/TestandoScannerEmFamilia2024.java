@@ -13,13 +13,13 @@ public class TestandoScannerEmFamilia2024 {
         // Criando uma lista de familiares
         List<String> familiares = new ArrayList<>();
         familiares.add("Albino FP - Espirito de equipe, pelo o todo!!!");
-        familiares.add("Michele FP - Adora um Doraminha!!!");
-        familiares.add("Mariana FP - Ama história, vai brilhar nas salas de aula !!!");
-        familiares.add("Albino FP Jr - Focado no Vava e no CN, decola !!!");
-        familiares.add("Gabriela FP - Brincar e se maquiar é uma rotina !!!");
+        familiares.add("Megera FP - Adora um Doraminha!!!");
+        familiares.add("Filha FP - Ama história, vai brilhar nas salas de aula !!!");
+        familiares.add("Filho Jr - Focado no Vava e no CN, decola !!!");
+        familiares.add("Caçula FP - Brincar e se maquiar é uma rotina !!!");
 
         // Solicitando o nome do familiar
-        System.out.println("Digite seu nome e receba minha mensagem (Exemplo: Albino): ");
+        System.out.println("Digite seu nome e receba minha mensagem (Exemplo: Albino, Megera, Filha, Filho Jr e Caçula): ");
         String nomeDigitado = scanner.nextLine();
 
         // Usando o switch para tratar o nome
@@ -28,19 +28,19 @@ public class TestandoScannerEmFamilia2024 {
                 System.out.println(familiares.get(0));
                 break;
 
-            case "Michele":
+            case "Megera":
                 System.out.println(familiares.get(1));
                 break;
 
-            case "Mariana":
+            case "Filha":
                 System.out.println(familiares.get(2));
                 break;
 
-            case "Albino Jr":
+            case "Filho Jr":
                 System.out.println(familiares.get(3));
                 break;
 
-            case "Gabriela":
+            case "Caçula":
                 System.out.println(familiares.get(4));
                 break;
 
