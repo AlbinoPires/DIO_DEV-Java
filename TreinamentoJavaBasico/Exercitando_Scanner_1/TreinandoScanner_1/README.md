@@ -62,10 +62,10 @@ public class TestandoScannerEmFamilia2024 {
         // Criando uma lista de familiares
         List<String> familiares = new ArrayList<>();
         familiares.add("Albino FP - Espirito de equipe, pelo o todo!!!");
-        familiares.add("Michele FP - Adora um Doraminha!!!");
-        familiares.add("Mariana FP - Ama história, vai brilhar nas salas de aula !!!");
-        familiares.add("Albino FP Jr - Focado no Vava e no CN, decola !!!");
-        familiares.add("Gabriela FP - Brincar e se maquiar é uma rotina !!!");
+        familiares.add("Megera FP - Adora um Doraminha!!!");
+        familiares.add("Filha FP - Ama história, vai brilhar nas salas de aula !!!");
+        familiares.add("Filho Jr - Focado no Vava e no CN, decola !!!");
+        familiares.add("Caçula FP - Brincar e se maquiar é uma rotina !!!");
 
         // Solicitando o nome do familiar
         System.out.println("Digite o nome do familiar (ex: Mariana): ");
