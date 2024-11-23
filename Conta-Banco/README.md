@@ -18,14 +18,6 @@
 
 ![DIO - plataforma de estudos](./DIO.jpg)
 
-Aqui está a sugestão para expandir a sessão "Estudos desenvolvidos na plataforma DIO" com mais contexto sobre o que você já estudou:
-
----
-
-## 📚 Estudos desenvolvidos na plataforma DIO 
-
-![DIO - plataforma de estudos](./DIO.jpg)
-
 ### **Sobre a DIO**
 A DIO (Digital Innovation One) é uma plataforma de aprendizado que oferece bootcamps focados em desenvolvimento de software, Cloud, Data Science e outras áreas tecnológicas. Minha jornada na DIO tem sido um marco importante na construção das minhas habilidades em tecnologia.
 
