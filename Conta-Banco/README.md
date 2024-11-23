@@ -2,7 +2,9 @@
 # 👋 Olá, eu sou Albino Pires!
 
 🌐 **Cloud Enthusiast** | **AWS Cloud** | **Kubernetes** | **Linux** | **Python** | **API REST** | **FLASK**  
+
 🚀 **Universitário de Computação em Nuvem, apaixonado por Cloud**
+
 🚀 **Atualmente imerso no bootcamp Formação Java Developer**
 
 ---
