@@ -78,3 +78,8 @@ Crie o projeto **ContaBanco** que receberá dados via terminal contendo as carac
    ```
    Olá [Nome Cliente], obrigado por criar uma conta em nosso banco. Sua agência é [Agência], conta [Número], e seu saldo [Saldo] já está disponível para saque.
    ```
+## 📚 Resultado
+
+1. **Abaixo o print do retorno no terminal**
+
+![Conta Bancaria](./testeContaCorrente.jpg)
