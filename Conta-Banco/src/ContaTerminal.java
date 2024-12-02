@@ -44,11 +44,9 @@ public class ContaTerminal {
         } else {
             System.out.println("\nErro: Dados não encontrados no sistema. Por favor, tente novamente ou contate o suporte 0800-999-123-987.");
         }
-        
         scanner.close();
         
     }
-
     public static void exibirMenu(Scanner scanner) {
         System.out.println("-------------------MENU OPÇÕES------------------------");
         System.out.println("1. Solicitar Empréstimo");
