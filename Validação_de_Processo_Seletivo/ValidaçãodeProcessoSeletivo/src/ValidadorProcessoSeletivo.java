@@ -1,3 +1,4 @@
+import java.util.Random;
 import java.util.concurrent.ThreadLocalRandom;
 // package candidatos;
 /**
@@ -22,9 +23,42 @@ public class ValidadorProcessoSeletivo {
     public static void main(String[] args) throws Exception {
        // Exibe data e hora
        System.out.println(MensagemDataHoraAtual.getMensagem() + "\n");
-        imprimirCandidatos();
+        //imprimirCandidatos();
         //selecaoCandidatos();
+
+        // chamando o metodo entrando em contato
+        String [] candidatos = {"Paulo", "Bubu", "Jose", "Maria", "Joao", "Jaja"};
+        for (String candidato : candidatos) {
+            entrandoEmContato(candidato);
+            
+        }
     }
+    
+    static void entrandoEmContato(String candidato){
+        int tentativasRealizadas = 0;
+        boolean continuarTentando = true;
+        boolean atendeu = false;
+        do{
+            atendeu=atender();
+            continuarTentando = !atendeu;
+            if (continuarTentando) 
+                tentativasRealizadas++;
+            else
+                System.out.println("\nContato realizado com sucesso!");
+
+        }while(continuarTentando && tentativasRealizadas <3);
+
+            if(atendeu)
+                System.out.println("Conseguimos o contato com " + candidato + " na " + tentativasRealizadas + " realizada(s)");
+            else
+                System.out.println("Conseguimos o contato com " + candidato + " na " + tentativasRealizadas + " realizada(s)");
+
+    }
+    static boolean atender() {
+       return new Random().nextInt(3)==1; 
+    }
+
+
     static void imprimirCandidatos(){
         String [] candidatos = {"Paulo", "Bubu", "Jose", "Maria", "Joao", "Jaja"};
         System.out.println("Imprimindo a lista de candidatos informando o dindice do elemento");
