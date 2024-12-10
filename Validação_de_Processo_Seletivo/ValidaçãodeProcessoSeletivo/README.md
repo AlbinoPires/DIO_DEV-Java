@@ -1,6 +1,3 @@
-Aqui está o README refinado, sem a marcação de horas:
-
----
 
 # 👋 Olá, eu sou Albino Pires!  
 
