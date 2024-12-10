@@ -1,6 +1,6 @@
 import java.util.concurrent.ThreadLocalRandom;
 
-public class ValidadorProcessoSeletivoGPTCorrecao {
+public class ValidadorProcessoSeletivoCorrecao {
     public static void main(String[] args) throws Exception {
         // Exibe data e hora
         System.out.println(MensagemDataHoraAtual.getMensagem() + "\n");
