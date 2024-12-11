@@ -1,5 +1,6 @@
 import java.util.Random;
 import java.util.concurrent.ThreadLocalRandom;
+
 // package candidatos;
 /**
      * Esta classe está validando a proposta de um candidato <b>Analisando Candidatura</b>.
