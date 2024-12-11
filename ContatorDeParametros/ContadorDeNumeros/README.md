@@ -46,7 +46,7 @@ O projeto é composto pelas seguintes classes:
 ## 📂 **Como Executar**
 1. Clone este repositório:
    ```bash
-   git clone https://github.com/seu-usuario/DesafioControleFluxo.git
+   git clone https://github.com/AlbinoPires/DIO_DEV-Java/tree/main/ContatorDeParametros/ContadorDeNumeros
    cd DesafioControleFluxo
    ```
 2. Compile o projeto:
