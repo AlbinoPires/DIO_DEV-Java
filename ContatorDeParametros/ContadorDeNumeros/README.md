@@ -10,9 +10,6 @@ Atualmente, estou me preparando para a certificação **AWS Solutions Architect*
 ## Este pequeno projeto foi desenvolvido conforme o programa da formação abaixo!  
 
 ## Java Developer Bootcamp - **Contador de numeros, sob uma condição específica interagindo com o usuario.**  
-
-Aqui está um exemplo de **README.md** para documentar o projeto com o resultado esperado:
-
 ---
 
 # Controle de Fluxo - Desafio
