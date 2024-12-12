@@ -1,3 +1,6 @@
+
+package meupacote;
+
  import java.time.LocalDateTime;
  import java.time.format.DateTimeFormatter;
 
@@ -9,6 +12,7 @@
   * @since 12/12/2024
   * @categoria Java Developer - POO
   */ 
+
 
 
  public class MensagemDataHoraAtual {
@@ -23,9 +27,6 @@
          return "Data e Hora Atual: " + agora.format(formato);
      }
 
-    public static String getMessage() {
-        // TODO Auto-generated method stub
-        throw new UnsupportedOperationException("Unimplemented method 'getMessage'");
-    }
+
  }
  
